@@ -54,10 +54,10 @@ export default function TimelineItem({ item }: { item: TimelineItemData }) {
 
           {/* Content with higher z-index to appear above images */}
           <div className="relative z-10">
-            <p className="text-xs sm:text-sm text-white font-bold mb-2 sm:mb-3 rink-line uppercase tracking-wide font-pixelify">
+            <p className="text-sm sm:text-md text-white font-bold uppercase tracking-wide">
               {item.date}
             </p>
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4 font-pixelify shadow-accent">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white sm:mb-2 font-pixelify shadow-accent">
               {item.title}
             </h3>
             <p className="text-sm sm:text-base text-white leading-relaxed mb-4 sm:mb-6">
