@@ -145,7 +145,7 @@ const MyTech = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
-          {techCategories.map((category, index) => (
+          {techCategories.map((category) => (
             <div
               key={category.title}
               className="liquid-glass p-4 sm:p-6 md:p-8"
@@ -163,7 +163,7 @@ const MyTech = () => {
               </div>
 
               <div className="space-y-3 sm:space-y-4">
-                {category.technologies.map((tech, techIndex) => (
+                {category.technologies.map((tech) => (
                   <div
                     key={tech.name}
                     className="liquid-glass p-3 sm:p-4 group hover:scale-105 transition-transform duration-300"
@@ -226,8 +226,8 @@ const MyTech = () => {
               ALWAYS LEARNING
             </h3>
             <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] leading-relaxed">
-              I'm constantly exploring new technologies and pushing the
-              boundaries of what's possible. Currently diving deep into AI/ML
+              I&apos;m constantly exploring new technologies and pushing the
+              boundaries of what&apos;s possible. Currently diving deep into AI/ML
               and building Large Language Models. Every project is an
               opportunity to learn something new and improve my craft.
             </p>

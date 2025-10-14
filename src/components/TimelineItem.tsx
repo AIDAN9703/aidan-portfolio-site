@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export interface TimelineItemData {
   id: number;
   title: string;
@@ -25,9 +27,11 @@ export default function TimelineItem({ item }: { item: TimelineItemData }) {
           {/* Top Left Image */}
           {item.images[0] && (
             <div className="absolute top-0 left-0 z-0">
-              <img
+              <Image
                 src={item.images[0]}
                 alt=""
+                width={80}
+                height={80}
                 className="w-20 h-20 object-cover opacity-40 rotate-12 transition-transform duration-300 hover:rotate-6"
                 style={{ imageRendering: "pixelated" }}
               />
@@ -37,9 +41,11 @@ export default function TimelineItem({ item }: { item: TimelineItemData }) {
           {/* Bottom Right Image */}
           {item.images[1] && (
             <div className="absolute bottom-4 right-4 z-0">
-              <img
+              <Image
                 src={item.images[1]}
                 alt=""
+                width={400}
+                height={104}
                 className="w-full h-26 object-cover opacity-30 -rotate-12 transition-transform duration-300 hover:-rotate-6"
                 style={{ imageRendering: "pixelated" }}
               />

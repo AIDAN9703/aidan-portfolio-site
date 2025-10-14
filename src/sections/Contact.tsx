@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8">
         <div className="text-center mb-12 sm:mb-16 md:mb-20">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-[var(--text-primary)] font-pixelify shadow-accent">
-            LET'S CONNECT
+            LET&apos;S CONNECT
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-[var(--primary-light)] font-medium px-4">
             Ready to build something amazing together?

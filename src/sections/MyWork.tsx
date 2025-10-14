@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const projects = [
   {
@@ -36,7 +37,7 @@ const MyWork = () => {
             MY WORK
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-[var(--primary-light)] font-medium px-4">
-            Projects I've built and contributed to
+            Projects I&apos;ve built and contributed to
           </p>
         </div>
 
@@ -47,9 +48,11 @@ const MyWork = () => {
               className="liquid-glass p-4 sm:p-6 md:p-8 group hover:scale-105 transition-transform duration-300"
             >
               <div className="mb-4 sm:mb-6">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
+                  width={400}
+                  height={128}
                   className="w-full h-24 sm:h-32 object-cover pixel-border mb-3 sm:mb-4"
                   style={{ imageRendering: "pixelated" }}
                 />

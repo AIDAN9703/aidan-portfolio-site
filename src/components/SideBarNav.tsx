@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const sections = [
   { id: "timeline", name: "TIMELINE" },
@@ -43,9 +44,11 @@ export default function SideBarNav() {
         <div className="text-center">
           {/* Headshot */}
           <div className="mb-4 mt-2">
-            <img
+            <Image
               src="/images/headshot.jpeg"
               alt="Aidan"
+              width={96}
+              height={96}
               className="w-24 h-24 mx-auto pixel-border object-cover object-top"
             />
           </div>
