@@ -136,10 +136,10 @@ const MyTech = () => {
     <section id="tech" className="min-h-screen py-8 sm:py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         <div className="text-center mb-12 sm:mb-16 md:mb-20">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-[var(--text-primary)] font-pixelify shadow-accent">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white font-pixelify shadow-accent">
             MY TECH STACK
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-[var(--primary-light)] font-medium px-4">
+          <p className="text-base sm:text-lg md:text-xl text-white font-medium px-4">
             Technologies I work with to build amazing experiences
           </p>
         </div>
@@ -157,7 +157,7 @@ const MyTech = () => {
                 >
                   {category.icon}
                 </div>
-                <h3 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] font-pixelify shadow-accent">
+                <h3 className="text-2xl sm:text-3xl font-bold text-white font-pixelify shadow-accent">
                   {category.title}
                 </h3>
               </div>
@@ -169,7 +169,7 @@ const MyTech = () => {
                     className="liquid-glass p-3 sm:p-4 group hover:scale-105 transition-transform duration-300"
                   >
                     <div className="flex justify-between items-start mb-2 gap-2">
-                      <h4 className="text-base sm:text-lg md:text-xl font-bold text-[var(--text-primary)] font-pixelify">
+                      <h4 className="text-base sm:text-lg md:text-xl font-bold text-white font-pixelify">
                         {tech.name}
                       </h4>
                       <span
@@ -179,7 +179,7 @@ const MyTech = () => {
                         {tech.level}
                       </span>
                     </div>
-                    <p className="text-[var(--text-secondary)] text-xs sm:text-sm">
+                    <p className="text-white text-xs sm:text-sm">
                       {tech.description}
                     </p>
                   </div>
@@ -192,7 +192,7 @@ const MyTech = () => {
         {/* Additional Skills */}
         <div className="mt-12 sm:mt-16">
           <div className="liquid-glass p-4 sm:p-6 md:p-8 text-center">
-            <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] mb-4 sm:mb-6 font-pixelify shadow-accent">
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 font-pixelify shadow-accent">
               ADDITIONAL SKILLS
             </h3>
             <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4">
@@ -210,7 +210,7 @@ const MyTech = () => {
               ].map((skill) => (
                 <span
                   key={skill}
-                  className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm liquid-glass text-[var(--text-secondary)] font-medium hover:text-[var(--primary)] transition-colors cursor-default"
+                  className="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm liquid-glass text-white font-medium hover:text-gray-200 transition-colors cursor-default"
                 >
                   {skill}
                 </span>
@@ -222,13 +222,13 @@ const MyTech = () => {
         {/* Learning Journey */}
         <div className="mt-12 sm:mt-16 text-center">
           <div className="liquid-glass p-4 sm:p-6 md:p-8 max-w-4xl mx-auto">
-            <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] mb-4 sm:mb-6 font-pixelify shadow-accent">
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 font-pixelify shadow-accent">
               ALWAYS LEARNING
             </h3>
-            <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed">
               I&apos;m constantly exploring new technologies and pushing the
-              boundaries of what&apos;s possible. Currently diving deep into AI/ML
-              and building Large Language Models. Every project is an
+              boundaries of what&apos;s possible. Currently diving deep into
+              AI/ML and building Large Language Models. Every project is an
               opportunity to learn something new and improve my craft.
             </p>
           </div>

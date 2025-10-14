@@ -5,10 +5,10 @@ const Contact = () => {
     <section id="contact" className="min-h-screen py-8 sm:py-12 md:py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8">
         <div className="text-center mb-12 sm:mb-16 md:mb-20">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-[var(--text-primary)] font-pixelify shadow-accent">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white font-pixelify shadow-accent">
             LET&apos;S CONNECT
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-[var(--primary-light)] font-medium px-4">
+          <p className="text-base sm:text-lg md:text-xl text-white font-medium px-4">
             Ready to build something amazing together?
           </p>
         </div>
@@ -17,7 +17,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-6 sm:space-y-8">
             <div className="liquid-glass p-4 sm:p-6 md:p-8">
-              <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] mb-4 sm:mb-6 font-pixelify shadow-accent">
+              <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 font-pixelify shadow-accent">
                 GET IN TOUCH
               </h3>
               <div className="space-y-3 sm:space-y-4">
@@ -38,12 +38,8 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-[var(--text-secondary)] font-medium">
-                      Email
-                    </p>
-                    <p className="text-[var(--text-primary)]">
-                      aidan@example.com
-                    </p>
+                    <p className="text-white font-medium">Email</p>
+                    <p className="text-white">aidan@example.com</p>
                   </div>
                 </div>
 
@@ -58,12 +54,8 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-[var(--text-secondary)] font-medium">
-                      GitHub
-                    </p>
-                    <p className="text-[var(--text-primary)]">
-                      github.com/aidan
-                    </p>
+                    <p className="text-white font-medium">GitHub</p>
+                    <p className="text-white">github.com/aidan</p>
                   </div>
                 </div>
 
@@ -78,12 +70,8 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-[var(--text-secondary)] font-medium">
-                      LinkedIn
-                    </p>
-                    <p className="text-[var(--text-primary)]">
-                      linkedin.com/in/aidan
-                    </p>
+                    <p className="text-white font-medium">LinkedIn</p>
+                    <p className="text-white">linkedin.com/in/aidan</p>
                   </div>
                 </div>
               </div>
@@ -92,12 +80,12 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="liquid-glass p-4 sm:p-6 md:p-8">
-            <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] mb-4 sm:mb-6 font-pixelify shadow-accent">
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 font-pixelify shadow-accent">
               SEND A MESSAGE
             </h3>
             <form className="space-y-4 sm:space-y-6">
               <div>
-                <label className="block text-xs sm:text-sm text-[var(--text-secondary)] font-medium mb-2">
+                <label className="block text-xs sm:text-sm text-white font-medium mb-2">
                   Name
                 </label>
                 <input
@@ -107,7 +95,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="block text-xs sm:text-sm text-[var(--text-secondary)] font-medium mb-2">
+                <label className="block text-xs sm:text-sm text-white font-medium mb-2">
                   Email
                 </label>
                 <input
@@ -117,7 +105,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="block text-xs sm:text-sm text-[var(--text-secondary)] font-medium mb-2">
+                <label className="block text-xs sm:text-sm text-white font-medium mb-2">
                   Message
                 </label>
                 <textarea
@@ -128,7 +116,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="w-full py-3 sm:py-4 text-sm sm:text-base liquid-glass border-2 border-[var(--primary)] text-[var(--text-primary)] font-bold hover:bg-[var(--primary)] hover:text-white transition-all duration-300 font-pixelify"
+                className="w-full py-3 sm:py-4 text-sm sm:text-base liquid-glass border-2 border-[var(--primary)] text-white font-bold hover:bg-[var(--primary)] hover:text-white transition-all duration-300 font-pixelify"
               >
                 SEND MESSAGE
               </button>

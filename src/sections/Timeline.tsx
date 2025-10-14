@@ -6,7 +6,7 @@ export default function Timeline() {
     <section id="timeline" className="min-h-screen py-8 sm:py-12 md:py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16 md:mb-20">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-black font-pixelify">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white font-pixelify shadow-accent">
             MY JOURNEY
           </h1>
         </div>
@@ -26,7 +26,7 @@ export default function Timeline() {
         </div>
 
         <div className="text-center mt-12 sm:mt-16 md:mt-20 px-4">
-          <p className="text-base sm:text-lg md:text-xl text-[var(--primary-dark)] font-bold font-pixelify shadow-accent">
+          <p className="text-base sm:text-lg md:text-xl text-white font-bold font-pixelify shadow-accent">
             READY FOR THE NEXT CHAPTER →
           </p>
         </div>

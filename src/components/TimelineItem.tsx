@@ -54,13 +54,13 @@ export default function TimelineItem({ item }: { item: TimelineItemData }) {
 
           {/* Content with higher z-index to appear above images */}
           <div className="relative z-10">
-            <p className="text-xs sm:text-sm text-[var(--primary)] font-bold mb-2 sm:mb-3 rink-line uppercase tracking-wide font-pixelify">
+            <p className="text-xs sm:text-sm text-white font-bold mb-2 sm:mb-3 rink-line uppercase tracking-wide font-pixelify">
               {item.date}
             </p>
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[var(--text-primary)] mb-3 sm:mb-4 font-pixelify shadow-accent">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4 font-pixelify shadow-accent">
               {item.title}
             </h3>
-            <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed mb-4 sm:mb-6">
+            <p className="text-sm sm:text-base text-white leading-relaxed mb-4 sm:mb-6">
               {item.description}
             </p>
             {item.link && (
@@ -68,7 +68,7 @@ export default function TimelineItem({ item }: { item: TimelineItemData }) {
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block text-[var(--accent)] hover:text-[var(--primary-dark)] font-bold transition-colors duration-300 font-pixelify"
+                className="inline-block text-white hover:text-gray-200 font-bold transition-colors duration-300 font-pixelify"
               >
                 {item.linkText || "Learn More"} →
               </a>
